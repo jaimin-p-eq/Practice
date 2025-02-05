@@ -1,6 +1,6 @@
-import User from "../../models/User.model.js";
+import User from "../models/User.model.js";
 import bcrypt from "bcrypt";
-import ApiResponse from "../../Utils/ApiResponse.js";
+import ApiResponse from "../Utils/ApiResponse.js";
 
 const UpdateUser = async (req, res) => {
   try {
